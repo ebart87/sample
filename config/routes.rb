@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
-  get 'static_pages/home'
+# root code replaces the need for "get 'static_pages/home'"
 
   get '/help', to: 'static_pages#help'
 
